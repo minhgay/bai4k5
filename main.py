@@ -17,7 +17,7 @@ df_chart= pd.DataFrame({
     'order':[1,2,3]
 })
 st.subheader('round chart')
-st.vega_litre_chart(
+st.vega_lite_chart(
 df_chart,
 {
     'mark': {'type':'arc'},
